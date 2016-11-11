@@ -1,0 +1,35 @@
+//
+//  MJ_PrefixHeader.pch
+//  Beautiful
+//
+//  Created by apple on 16/10/19.
+//  Copyright © 2016年 最美的你. All rights reserved.
+//
+
+#ifndef MJ_PrefixHeader_pch
+#define MJ_PrefixHeader_pch
+
+#define WIDTH  self.bounds.size.width
+#define HEIGHT  self.bounds.size.height
+
+#define WIDTHVIEW self.view.frame.size.width
+#define HEIGHTVIEW self.view.frame.size.height
+
+#define BOUNDSCREEN  [UIScreen mainScreen].bounds
+#define WIDTHSCREEN  BOUNDSCREEN.size.width
+#define HEIGHTSCREEN  BOUNDSCREEN.size.height
+
+#define COLOR [UIColor colorWithRed:(arc4random() % 256 / 255.0) green:(arc4random() % 256 / 255.0) blue:(arc4random() % 256 / 255.0) alpha:1.0]
+
+#define ROOTCOLOR [UIColor colorWithRed:0.94 green:0.64 blue:0.69 alpha:1.00]
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "MJ_BaseViewController.h"
+#import "MJ_Button.h"
+#import "GPUImage.h"
+#import <AssetsLibrary/AssetsLibrary.h>
+#import <Photos/Photos.h>
+
+
+#endif /* MJ_PrefixHeader_pch */
